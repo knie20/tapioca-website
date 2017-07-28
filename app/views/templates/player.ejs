@@ -1,0 +1,20 @@
+<script src="./public/js/soundCloudPlayer.js"></script>
+<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+<script>
+SC.initialize({
+  client_id: 'YOUR_CLIENT_ID',
+  redirect_uri: 'http://example.com/callback'
+});
+
+// initiate auth popup
+SC.connect().then(function() {
+  return SC.get('/me');
+}).then(function(me) {
+  alert('Hello, ' + me.username);
+});
+
+var track_url = 'http://soundcloud.com/forss/flickermood';
+SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
+  console.log('oEmbed response: ', oEmbed);
+});
+</script>

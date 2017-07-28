@@ -1,0 +1,29 @@
+{
+  "name": "tapioca-website",
+  "version": "1.0.0",
+  "description": "Website for Tapioca Radio Show",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "nodemon -e css,ejs,js,json --watch app --ignore feedback.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.uc.edu/niekg/tapioca-website.git"
+  },
+  "keywords": [
+    "tapioca"
+  ],
+  "author": "niekg",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0",
+    "reload": "^1.1.5",
+    "soundcloud-audio": "^1.1.0"
+  },
+  "devDependencies": {
+    "ejs-lint": "^0.3.0"
+  }
+}

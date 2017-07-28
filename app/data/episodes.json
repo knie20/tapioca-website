@@ -1,0 +1,113 @@
+{
+  "episodes" :
+  [
+    {
+      "episodeNumber" : 1,
+      "episodeTitle" : "",
+      "soundUri" : "",
+      "artworkName" : "",
+      "releaseDate" :
+      {
+        "year": 2016,
+        "month": 1,
+        "day": 1
+      },
+      "guest" :
+      [
+        {
+          "name" : "",
+          "description": ""
+        }
+      ],
+      "timestamps" :
+      [
+        {
+          "time" : "",
+          "description" : ""
+        }
+      ],
+      "episodeDescription" : ""
+    },
+    {
+      "episodeNumber" : 2,
+      "episodeTitle" : "",
+      "soundUri" : "",
+      "artworkName" : "",
+      "releaseDate" :
+      {
+        "year": 2016,
+        "month": 1,
+        "day": 1
+      },
+      "guest" :
+      [
+        {
+          "name" : "",
+          "description": ""
+        }
+      ],
+      "timestamps" :
+      [
+        {
+          "time" : "",
+          "description" : ""
+        }
+      ],
+      "episodeDescription" : ""
+    },
+    {
+      "episodeNumber" : 3,
+      "episodeTitle" : "",
+      "soundUri" : "",
+      "artworkName" : "",
+      "releaseDate" :
+      {
+        "year": 2016,
+        "month": 1,
+        "day": 1
+      },
+      "guest" :
+      [
+        {
+          "name" : "",
+          "description": ""
+        }
+      ],
+      "timestamps" :
+      [
+        {
+          "time" : "",
+          "description" : ""
+        }
+      ],
+      "episodeDescription" : ""
+    },
+    {
+      "episodeNumber" : 4,
+      "episodeTitle" : "",
+      "soundUri" : "",
+      "artworkName" : "",
+      "releaseDate" :
+      {
+        "year": 2016,
+        "month": 1,
+        "day": 1
+      },
+      "guest" :
+      [
+        {
+          "name" : "",
+          "description": ""
+        }
+      ],
+      "timestamps" :
+      [
+        {
+          "time" : "",
+          "description" : ""
+        }
+      ],
+      "episodeDescription" : ""
+    }
+  ]
+}

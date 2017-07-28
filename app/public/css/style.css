@@ -1,0 +1,128 @@
+* {
+  font-family: "Droid Sans";
+}
+
+.navbar-fixed-left {
+  width: 200px;
+  position: fixed;
+  border-radius: 0;
+  height: 100%;
+  background-color: #F11C24;
+}
+
+.navbar-fixed-left .navbar-brand {
+  border: 0px;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.navbar-fixed-left ul a {
+  display: inline-block;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 200px;
+}
+
+.navbar-fixed-left ul a:hover {
+  background-color: #020304;
+  color: #FFFFFF;
+}
+
+#sc-player-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.non-nav {
+  margin-left: 210px;
+}
+
+.main hr {
+  background-color: #F11C24;
+  color: #F11C24;
+  border: 0px;
+  height: 4px;
+}
+
+.main p {
+  font-size: 16px;
+}
+
+.main .portraits {
+  text-align: center;
+}
+
+.slideMenu {
+	  background-color:#F11C24;
+    overflow: auto;
+    margin: 10px;
+}
+
+.slideMenu .slideBox {
+  background-color:#F11C24;
+  position:relative;
+  /*margin:0 auto;*/
+  padding:5px;
+  width:100%;
+}
+
+.slideMenu .scroller {
+  color:#020304;
+  width:40px;
+  text-align:center;
+  cursor:pointer;
+  display:none;
+  padding:5px;
+  margin-top:5px;
+}
+
+.slideMenu .scroller-right{
+  float:right;
+}
+
+.slideMenu .scroller-left {
+  float:left;
+}
+
+.slideMenu .icon-large{
+  font-size: 32px;
+}
+
+.slideMenu .wrapper {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+	  padding: 5px;
+  	height: 50px;
+}
+
+.slideMenu .list {
+    position:absolute;
+    left:0px;
+    top:0px;
+  	min-width:3000px;
+  	margin-left:12px;
+    margin-top:0px;
+}
+
+
+.slideMenu .item{
+  	padding:10px;
+   /*float:left;*/
+	display:table-cell;
+    margin:1px;
+    position:relative;
+    text-align:center;
+    cursor:grab;
+    cursor:-webkit-grab;
+    color:#efefef;
+	border: 1px dotted #111;
+   vertical-align:middle;
+}
+
+.footer {
+  text-align: center;
+  background-color: #020304;
+  color: #FFFFFF;
+}
