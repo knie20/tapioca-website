@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head> <% include ../templates/head %> </head>
+  <body id="<%= pageID %>">
+    <div class="container-fluid">
+      <div class="navbar navbar-fixed-left">
+        <% include ../templates/navbar %>
+      </div>
+      <div class="content">
+        <% if (pageID == 'home') { %>
+          <% include home %>
+        <% } %>
+        <% if (pageID == 'episodes') { %>
+          <% include episodes %>
+        <% } %>
+        <% if (pageID == 'episode_info') { %>
+          <% include episode_info %>
+        <% } %>
+      </div>
+    </div>
+    <% include ../templates/scripts %>
+  </body>
+</html>

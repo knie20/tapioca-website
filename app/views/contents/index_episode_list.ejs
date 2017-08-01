@@ -7,7 +7,7 @@
       <% episodes.slice(Math.max(episodes.length - 10, 0), episodes.length).forEach(function(episode) { %>
         <div class="item">
           <div class="episode-artwork">
-            <a class=""><img src="/resources/episode_artworks/<%= episode.artworkName %>"></a>
+            <a class=""><img src="/resources/episode_artworks/<%= episode.artworkUri %>"></a>
           </div>
           <div class="episode-title">
             <h5 title="<%= episode.soundUri %>"><a><%= episode.episodeTitle%></a></h5>

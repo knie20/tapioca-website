@@ -24,7 +24,7 @@ router.get('/episode/:episodeId', function(req, res) {
 
   res.render('episode', {
     pageTitle: 'Episode Details',
-    pageID: 'episode info',
+    pageID: 'episode_info',
     episode: currentEpisode
   });
 
