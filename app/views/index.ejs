@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head> <% include templates/head %> </head>
+  <body>
+    <div id="fb-root"></div>
+    <div class="container-fluid">
+      <div class="navbar navbar-fixed-left">
+        <% include templates/navbar %>
+      </div>
+      <div class="content">
+        <% if (pageID == 'home') { %>
+          <% include pages/home %>
+        <% } %>
+        <% if (pageID == 'episodes') { %>
+          <% include pages/episodes %>
+        <% } %>
+        <% if (pageID == 'episode_info') { %>
+          <% include pages/episode_info %>
+        <% } %>
+        <% if (pageID == 'feedback') { %>
+          <% include pages/feedback %>
+        <% } %>
+        <div class="row footer">
+          <% include templates/footer %>
+        </div>
+      </div>
+    </div>
+    <% include templates/scripts %>
+  </body>
+</html>

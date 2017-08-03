@@ -7,7 +7,7 @@ var app = express();
 app.set('port', process.env.PORT || 3000 );
 app.set('episodeData', episodeDataFile);
 app.set('view engine', 'ejs');
-app.set('views', __dirname + '/views/pages');
+app.set('views', __dirname + '/views');
 
 app.locals.siteTitle = 'Tapioca Radio Show';
 

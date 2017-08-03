@@ -1,25 +1,33 @@
 <div class="row header">
   <% include ../templates/jumbotron %>
 </div>
-<div class="row main">
-  <div class="col-lg-4">
-    <% include ../contents/index_intro %>
-  </div>
-  <div class="col-lg-8">
-  </div>
-  <div class="col-lg-4">
-    <% include ../contents/index_staff_intro %>
-  </div>
-  <div class="col-lg-2">
-  </div>
-  <div class="col-lg-2">
-  </div>
-</div>
 <div class="row">
   <div class="col-lg-8">
-    <% include ../contents/index_episode_list %>
+    <div class="row">
+      <div class="col-lg-6">
+        <% include ../contents/home-intro %>
+      </div>
+      <div class="col-lg-6">
+        <% include ../contents/home-staff_intro %>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <% include ../contents/home-episode_list %>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-<div class="row footer">
-  <% include ../templates/footer %>
+  <div class="col-lg-4">
+    <div class="row">
+      <div class="col-lg-12">
+        <% include ../templates/fb_plugin %>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-lg-12">
+        <% include ../templates/twitter_plugin %>
+      </div>
+    </div>
+  </div>
 </div>

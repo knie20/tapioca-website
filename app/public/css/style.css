@@ -2,6 +2,10 @@
   font-family: "Droid Sans";
 }
 
+body {
+  background-color: #FFFFFF;
+}
+
 .navbar-fixed-left {
   width: 200px;
   position: fixed;
@@ -28,28 +32,34 @@
   color: #FFFFFF;
 }
 
-#sc-player-wrapper {
+.sc-player {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   left: 0;
 }
 
-.content {
-  margin-left: 210px;
+.sc-player-toggle {
+  min-width: 80px;
+  max-width: 100px;
+
 }
 
-.main hr {
+.content {
+  margin-left: 220px;
+}
+
+.content hr {
   background-color: #F11C24;
   color: #F11C24;
   border: 0px;
   height: 4px;
 }
 
-.main p {
+.content p {
   font-size: 16px;
 }
 
-.main .portraits {
+.content .portraits {
   text-align: center;
 }
 
@@ -94,7 +104,8 @@
     margin: 0 auto;
     overflow: hidden;
 	  padding: 5px;
-  	height: 50px;
+  	height: 250px;
+    vertical-align: middle;
 }
 
 .slideMenu .list {
@@ -108,17 +119,24 @@
 
 
 .slideMenu .item{
-  	padding:10px;
-   /*float:left;*/
+  padding:10px;
 	display:table-cell;
-    margin:1px;
-    position:relative;
-    text-align:center;
-    cursor:grab;
-    cursor:-webkit-grab;
-    color:#efefef;
-	border: 1px dotted #111;
-   vertical-align:middle;
+  margin:1px;
+  position:relative;
+  text-align:center;
+  color:#efefef;
+	border-left: 1px dotted #FFFFFF;
+  vertical-align: top;
+  max-width: 200px;
+}
+
+.slideMenu .episode-artwork {
+
+}
+
+.slideMenu .episode-artwork img {
+  max-width:100%;
+  max-height:100%;
 }
 
 .footer {

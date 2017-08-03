@@ -1,6 +1,17 @@
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="">Tapioca Radio Show</h1>
-    <p class="lead">The something experiential learning something</p>
+    <% if(pageID == 'home') { %>
+      <h1 class="">Tapioca Radio Show</h1>
+      <p class="lead">The something experiential learning something</p>
+    <% } %>
+    <% if(pageID == 'episodes') { %>
+      <h1 class="">All Episodes</h1>
+    <% } %>
+    <% if(pageID == 'episode_info') { %>
+      <h1 class=""><%= episode.episodeTitle %></h1>
+    <% } %>
+    <% if(pageID == 'feedback') { %>
+      <h1 class="">Provide Feedback</h1>
+    <% } %>
   </div>
 </div>

@@ -4,10 +4,10 @@
   <div class="scroller scroller-right"><i class="glyphicon  glyphicon-chevron-right icon-large"></i></div>
   <div class="wrapper">
     <div class="list">
-      <% episodes.slice(Math.max(episodes.length - 10, 0), episodes.length).forEach(function(episode) { %>
+      <% episodes.slice(Math.max(episodes.length - 10, 0), episodes.length).reverse().forEach(function(episode) { %>
         <div class="item">
           <div class="episode-artwork">
-            <a class=""><img src="/resources/episode_artworks/<%= episode.artworkUri %>"></a>
+            <a class=""><img src="<%= episode.artworkUri %>"></a>
           </div>
           <div class="episode-title">
             <h5 title="<%= episode.soundUri %>"><a><%= episode.episodeTitle%></a></h5>
