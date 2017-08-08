@@ -10,14 +10,11 @@
       <div class="content">
         <% if (pageID == 'home') { %>
           <% include pages/home %>
-        <% } %>
-        <% if (pageID == 'episodes') { %>
+        <% }else if (pageID == 'episodes') { %>
           <% include pages/episodes %>
-        <% } %>
-        <% if (pageID == 'episode_info') { %>
+        <% }else if (pageID == 'episode_info') { %>
           <% include pages/episode_info %>
-        <% } %>
-        <% if (pageID == 'feedback') { %>
+        <% }else if (pageID == 'feedback') { %>
           <% include pages/feedback %>
         <% } %>
         <div class="row footer">

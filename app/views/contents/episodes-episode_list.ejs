@@ -1,0 +1,10 @@
+<% episodes.reverse().forEach( function(episode) { %>
+  <div class="item">
+    <div class="episode-artwork">
+      <a class=""><img src="<%= episode.artworkUri %>"></a>
+    </div>
+    <div class="episode-title">
+      <h5 title="<%= episode.soundUri %>"><a><%= episode.episodeTitle%></a></h5>
+    </div>
+  </div>
+<% }); %>

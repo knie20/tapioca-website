@@ -4,7 +4,7 @@ var router = express.Router();
 router.get('/episodes', function(req, res) {
   var data = req.app.get('episodeData');
 
-  res.render('episodes', {
+  res.render('index', {
     pageTitle: 'Episodes',
     pageID: 'episodes',
     episodes: data.episodes
@@ -22,7 +22,7 @@ router.get('/episode/:episodeId', function(req, res) {
     }
   });
 
-  res.render('episode', {
+  res.render('index', {
     pageTitle: 'Episode Details',
     pageID: 'episode_info',
     episode: currentEpisode
