@@ -4,7 +4,7 @@ var episodeDataFile = require('./data/episodes.json')
 
 // const MongoClient = require('mongodb').MongoClient;
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://<tapioca-test>:<1234>@ds061355.mlab.com:61355/tapioca-test');
+mongoose.connect('mongodb://tapioca-test:1234@ds061355.mlab.com:61355/tapioca-test', { useMongoClient: true });
 var db = mongoose.connection;
 
 var app = express();
@@ -21,6 +21,7 @@ app.use(express.static('app/public'));
 app.use(require('./routes/index'));
 app.use(require('./routes/episodes'));
 app.use(require('./routes/feedback'));
+console.log(new Date());
 
 // start server
 // MongoClient.connect('mongodb://<dbuser>:<dbpassword>@ds061355.mlab.com:61355/tapioca-test', function(err, database) {

@@ -146,6 +146,23 @@ body {
   max-height:100%;
 }
 
+.episode-panel{
+  margin-right: 10px;
+}
+
+.episode-panel .item {
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  vertical-align: top;
+  border-bottom: 4px solid #F11C24;
+  display: inline-block;
+}
+
+.episode-panel .item img {
+  width: 200px;
+}
+
 .footer {
   text-align: center;
   background-color: #020304;
