@@ -4,7 +4,9 @@
       <a class=""><img src="<%= episode.artworkUri %>"></a>
     </div>
     <div class="episode-title">
-      <h5 title="<%= episode.soundUri %>"><a><%= episode.episodeTitle%></a></h5>
+      <a title="<%= episode.soundUri %>">
+        <%= episode.episodeTitle%>
+      </a>
     </div>
   </div>
-<% }); %>
+  <% }); %>

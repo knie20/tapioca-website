@@ -43,13 +43,14 @@ body {
   border: 0;
   width: 198px;
   background-color: #FF7700;
+  color: #020304;
 }
 
 .sc-player-toggle i {
   font-size: 20px;
 }
 
-.sc-player-toggle-text{
+.sc-player-toggle-text {
   background-color: #FF7700;
   margin: 0;
   border: 0;
@@ -75,92 +76,96 @@ body {
 }
 
 .slide-menu {
-	  background-color:#F11C24;
-    overflow: auto;
-    margin: 10px;
+  background-color: #F11C24;
+  overflow: auto;
+  margin: 10px;
 }
 
 .slide-menu .slideBox {
   background-color: #F11C24;
-  position:relative;
+  position: relative;
   /*margin:0 auto;*/
-  padding:5px;
-  width:100%;
+  padding: 5px;
+  width: 100%;
 }
 
 .slide-menu .scroller {
-  color:#020304;
-  width:40px;
-  text-align:center;
-  cursor:pointer;
-  display:none;
-  padding:5px;
-  margin-top:5px;
+  color: #020304;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+  padding: 5px;
+  margin-top: 5px;
 }
 
-.slide-menu .scroller-right{
-  float:right;
+.slide-menu .scroller-right {
+  float: right;
 }
 
 .slide-menu .scroller-left {
-  float:left;
+  float: left;
 }
 
-.slide-menu .icon-large{
+.slide-menu .icon-large {
   font-size: 32px;
 }
 
 .slide-menu .wrapper {
-    position: relative;
-    margin: 0 auto;
-    overflow: hidden;
-	  padding: 5px;
-  	height: 250px;
-    vertical-align: middle;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 5px;
+  height: 250px;
+  vertical-align: middle;
 }
 
 .slide-menu .list {
-    position:absolute;
-    left:0px;
-    top:0px;
-  	min-width:3000px;
-  	margin-left:12px;
-    margin-top:0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  min-width: 3000px;
+  margin-left: 12px;
+  margin-top: 0px;
 }
 
-
-.slide-menu .item{
-  padding:10px;
-	display:table-cell;
-  margin:1px;
-  position:relative;
-  text-align:center;
-  color:#efefef;
-	border-left: 1px dotted #FFFFFF;
+.slide-menu .item {
+  padding: 10px;
+  display: table-cell;
+  margin: 1px;
+  position: relative;
+  text-align: center;
+  color: #efefef;
+  border-left: 1px dotted #FFFFFF;
   vertical-align: top;
   max-width: 200px;
 }
 
 .slide-menu .episode-artwork img {
-  max-width:100%;
-  max-height:100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.episode-panel{
+.episode-panel {
   margin-right: 10px;
 }
 
 .episode-panel .item {
-  width: 200px;
+  width: 175px;
   height: 250px;
   margin: 10px;
   vertical-align: top;
   border-bottom: 4px solid #F11C24;
+  border-top: 4px solid #020304;
   display: inline-block;
 }
 
 .episode-panel .item img {
-  width: 200px;
+  width: 175px;
+}
+
+.episode-panel .item .episode-title {
+  font-size: 16px;
 }
 
 .footer {

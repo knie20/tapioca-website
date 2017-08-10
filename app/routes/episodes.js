@@ -16,8 +16,8 @@ router.get('/episode/:episodeId', function(req, res) {
   var data = req.app.get('episodeData');
   var episode;
 
-  data.episodes.forEach(function(item){
-    if (item.episodeNumber == req.params.episodeId){
+  data.episodes.forEach(function(item) {
+    if (item.episodeNumber == req.params.episodeId) {
       currentEpisode = item;
     }
   });
