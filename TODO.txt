@@ -1,0 +1,15 @@
+Feedback page :
+  HTML Form
+Episode_info page:
+  get it to WORK
+  Comment section
+Index page:
+  get index page writings from Julia
+  episode scroll list adjustments
+backend:
+  put/update data in DB
+  pull data from DB
+Publishing:
+  Contact Sharp about this
+  Hosting service
+  DNS Address
